@@ -67,17 +67,34 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="carousel.css" />
+    <Content Include="CatPage.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="FishPage.aspx" />
     <Content Include="PageTwo.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CatPage.aspx.cs">
+      <DependentUpon>CatPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CatPage.aspx.designer.cs">
+      <DependentUpon>CatPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FishPage.aspx.cs">
+      <DependentUpon>FishPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FishPage.aspx.designer.cs">
+      <DependentUpon>FishPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="PageTwo.aspx.cs">
       <DependentUpon>PageTwo.aspx</DependentUpon>
