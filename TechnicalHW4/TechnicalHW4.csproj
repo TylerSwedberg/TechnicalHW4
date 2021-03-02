@@ -71,6 +71,13 @@
     <Content Include="CatPage.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="FishPage.aspx" />
+    <Content Include="images\cat.jpg" />
+    <Content Include="images\catmedicine.png" />
+    <Content Include="images\Circle2.png" />
+    <Content Include="images\defaultCircle.jpg" />
+    <Content Include="images\dogMed.jpg" />
+    <Content Include="images\fish.jpg" />
+    <Content Include="images\front.jpeg" />
     <Content Include="PageTwo.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -122,6 +129,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -47,7 +47,7 @@
         <div>
             <header>
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-                    <a class="navbar-brand" href="Default.aspx">Tyler's Pet Store<span class="sr-only">(current)</span></a>
+                    <a class="navbar-brand" href="Default.aspx">Tyler's Pet Med Store<span class="sr-only">(current)</span></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -55,6 +55,9 @@
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="Default.aspx">Home</a>
+                            </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="PageTwo.aspx">Dog</a>
                             </li>
@@ -79,31 +82,31 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+                            <img class="first-slide" src="images/front.jpeg" alt="First slide">
                             <div class="container">
                                 <div class="carousel-caption text-left">
-                                    <h1>Welcome to Tyler's Pet Med!</h1>
-                                    <p>Is your pet not feeling well? Have specific symptoms? Well, you are just in the right place! Take a look around for the medication needed for your pet!</p>
+                                    <h1 style="text-shadow:1px 1px 12px black">Welcome to Tyler's Pet Med!</h1>
+                                    <p style="text-shadow:1px 1px 2px black"">Is your pet not feeling well? Have specific symptoms? Well, you are just in the right place! Take a look around for the medication needed for your pet!</p>
                                     <%--<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>--%>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+                            <img class="second-slide" src="images/dogMed.jpg" alt="Second slide">
                             <div class="container">
                                 <div class="carousel-caption">
-                                    <h1>Dog Medication</h1>
-                                    <p>Is your dog not feeling well? Today we have a special 20% offer on dog medications for stomach aches. Click below for more info!</p>
+                                    <h1 style="text-shadow:1px 1px 12px black">Dog Medication</h1>
+                                    <p style="text-shadow:1px 1px 2px black">Is your dog not feeling well? Today we have a special 20% offer on dog medications for stomach aches. Click below for more info!</p>
                                     <p><a class="btn btn-lg btn-primary" href="PageTwo.aspx" role="button">Learn more</a></p>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+                            <img class="third-slide" src="images/catmedicine.png" alt="Third slide">
                             <div class="container">
                                 <div class="carousel-caption text-right">
-                                    <h1>Cat Medication</h1>
-                                    <p>Is your cat not feeling well? We have a 10% sale on all cat med only for the next 24 hours! Check it out now!</p>
+                                    <h1 style="text-shadow:1px 1px 12px black">Cat Medication</h1>
+                                    <p style="text-shadow:1px 1px 12px black">Is your cat not feeling well? We have a 10% sale on all cat med only for the next 24 hours! Check it out now!</p>
                                     <p><a class="btn btn-lg btn-primary" href="CatPage.aspx" role="button">Learn more</a></p>
                                 </div>
                             </div>
@@ -211,9 +214,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="../../assets/js/vendor/popper.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
 
 </body>
 </html>
